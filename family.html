@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FAMILY</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<body>
+
+<div class="w3-sidebar w3-black w3-bar-block" style="width:25%">
+	<h5 style="font-family: 'Koho', cursive;" class="w3-bar-item" align="center">
+	<b>ASSALAMUALAIKUM WBT</b></h5>
+		<div class="w3-container">
+    	<img src="images/Nabilah.jpg" class="w3-border" alt="bil" style="padding:4px;width: 80%">
+  		</div>
+ 		<a href="index.html" class="w3-bar-item w3-button w3-grey">HOME PAGE</a>
+		<a href="biodata.html" class="w3-bar-item w3-button w3-black">BIODATA</a>
+		<a href="education.html" class="w3-bar-item w3-button w3-black">EDUCATION</a>
+		<a href="experience.html" class="w3-bar-item w3-button w3-black">EXPERIENCE</a>
+		<a href="family.html" class="w3-bar-item w3-button w3-black">FAMILY</a>
+		<a href="gallery.html" class="w3-bar-item w3-button w3-black">GALLERY</a>
+</div>
+
+<div style="margin-left:25%">
+
+<div class="w3-container w3-black" align="center">
+	<h1 class="w3-text-white">
+	<b>ALL ABOUT MY FAMILY</b></h1>
+</div>
+
+<h1 style="font-family: Times New Roman, cursive;"align="center">Meet My Family</h1>
+<div align="center">
+<table border="1px">
+	<tr>
+		<th>Title</th>
+		<th>Name</th>
+		<th>Occupation</th>
+		<th>Age</th>
+	</tr>
+	<tr>
+		<td>Father</td>
+		<td>Mohd Ridzuan</td>
+		<td>Clerk</td>
+		<td>53</td>
+	</tr>
+	<tr>
+		<td>Mother</td>
+		<td>Azmah</td>
+		<td>Housewife</td>
+		<td>49</td>
+	</tr>
+	<tr>
+		<td>Elder sister</td>
+		<td>Nurul Suhadah</td>
+		<td>Engineer</td>
+		<td>28</td>
+	</tr>
+	<tr>
+		<td>Elder brother</td>
+		<td>Muhammad Rusydi Aiman</td>
+		<td>Soldier</td>
+		<td>27</td>
+	</tr>
+	<tr>
+		<td>Elder sister</td>
+		<td>Nur Asna Syazwani</td>
+		<td>Job hunter</td>
+		<td>25</td>
+	</tr>
+	<tr>
+		<td>Elder brother</td>
+		<td>Ahmad Zharif Adib</td>
+		<td>Protege Engineer</td>
+		<td>24</td>
+	</tr>
+	<tr>
+		<td>Me</td>
+		<td>Siti Nabilah</td>
+		<td>Student at UiTM</td>
+		<td>22</td>
+	</tr>
+	<tr>
+		<td>Little brother</td>
+		<td>Mohamad Arif Afham</td>
+		<td>Student at Ranaco College</td>
+		<td>20</td>
+	</tr>
+	<tr>
+		<td>Little sister</td>
+		<td>Nur Zarifah Athirah</td>
+		<td>Student</td>
+		<td>17</td>
+	</tr>
+</table>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<div class="w3-content w3-display-container">
+
+
+<div class="w3-display-container mySlides">
+  <img src="images/1.jpg" style="width:100%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    Raya 2021
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/2.jpg" style="width:100%">
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+    Wedding
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/4.jpg" style="width:100%">
+  <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+    Raya 2021
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/family.JPG" style="width:100%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    Love Family
+  </div>
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) 
+{
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) 
+{
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<br>
+<br>
+<br>
+
+<div style="margin-left:0%" align="center">
+<div class="w3-black w3-center w3-padding-10">Powered by<a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-grey">w3.css</a>
+</div>
+
+<div style="margin-left:5%" align="center">
+<footer>
+ <p style="text-align: center; font-size: 11px;">Copyright 2021&copy Siti Nabilah Mohd Ridzuan. Recommended browser: Google Chrome. Resolution 1108 x 1228. Lat update: 16<sup>nd</sup>June 2021. <br>This site for assignment purpose only.</p></footer>
+</div>
+</div>
+
+
+
+
+<style>
+		body
+		{
+			background-image: url('images/grey2.jpg');
+		}
+</style>
+</body>
+</html>
